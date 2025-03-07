@@ -2,12 +2,18 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useLanguage } from '../i18n/LanguageProvider';
 import { getLanguagePath } from '../i18n/utils';
 import { useTranslation } from '../i18n/client';
 import BottomCTA from './BottomCTA';
 import styles from './Home.module.css';
+
+// Define the type for the steps
+interface Step {
+  number: string;
+  title: string;
+  description: string;
+}
 
 export default function Home() {
   const { language } = useLanguage();
@@ -83,7 +89,7 @@ export default function Home() {
       <section className={styles.steps}>
         <h2>{t('how_it_works.title')}</h2>
         <div className={styles.stepList}>
-          {t('how_it_works.steps', { returnObjects: true }).map((step, index) => (
+          {(t('how_it_works.steps', { returnObjects: true }) as Step[]).map((step, index) => (
             <div className={styles.step} key={index}>
               <div className={styles.stepNumber}>{step.number}</div>
               <h3>{step.title}</h3>

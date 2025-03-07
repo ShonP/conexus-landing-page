@@ -24,10 +24,7 @@ export async function generateMetadata({
   params,
 }: Props): Promise<Metadata> {
   // Await the params since it may be a Promise
-  const resolvedParams = await Promise.resolve(params);
-  
-  // Now we can safely access the lang property
-  const language = getLanguage(resolvedParams.lang);
+  await Promise.resolve(params);
   
   return {
     title: `Conexus - Social Media Automation`,

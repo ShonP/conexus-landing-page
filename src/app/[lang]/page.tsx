@@ -1,9 +1,5 @@
-import Home from '../../components/Home';
+import Home from "../../components/Home";
 
-type Props = {
-  params: Promise<{ lang: string }> | { lang: string };
-};
-
-export default async function LangPage({ params }: Props) {
+export default async function LangPage() {
   return <Home />;
 }

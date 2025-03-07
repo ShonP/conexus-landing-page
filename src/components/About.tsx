@@ -2,13 +2,22 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useLanguage } from '../i18n/LanguageProvider';
-import { getLanguagePath } from '../i18n/utils';
 import { useTranslation } from '../i18n/client';
 import styles from './About.module.css';
 
+// Define interfaces for our translation objects
+interface ValueItem {
+  title: string;
+  description: string;
+}
+
+interface TeamMember {
+  initials: string;
+  name: string;
+  role: string;
+}
+
 export default function About() {
-  const { language } = useLanguage();
   const { t } = useTranslation();
 
   return (
@@ -47,7 +56,7 @@ export default function About() {
       <section className={styles.values}>
         <h2>{t('about.values.title')}</h2>
         <div className={styles.valueGrid}>
-          {t('about.values.items', { returnObjects: true }).map((value, index) => (
+          {t<ValueItem[]>('about.values.items', { returnObjects: true }).map((value, index) => (
             <div className={styles.valueCard} key={index}>
               <h3>{value.title}</h3>
               <p>{value.description}</p>
@@ -62,7 +71,7 @@ export default function About() {
           {t('about.team.subtitle')}
         </p>
         <div className={styles.memberGrid}>
-          {t('about.team.members', { returnObjects: true }).map((member, index) => (
+          {t<TeamMember[]>('about.team.members', { returnObjects: true }).map((member, index) => (
             <div className={styles.memberCard} key={index}>
               <div className={styles.memberPhoto}>
                 <span>{member.initials}</span>

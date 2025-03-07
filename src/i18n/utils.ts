@@ -1,4 +1,4 @@
-import { defaultLanguage, getLanguage, isValidLanguage } from './config';
+import { defaultLanguage, isValidLanguage } from './config';
 
 export function getLanguageFromPath(pathname: string): string {
   const segments = pathname.split('/').filter(Boolean);

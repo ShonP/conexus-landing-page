@@ -2,33 +2,132 @@
   "nav": {
     "home": "Inicio",
     "features": "Características",
-    "about": "Nosotros",
-    "login": "Ingresar"
+    "about": "Acerca de",
+    "login": "Iniciar sesión"
   },
   "hero": {
-    "title": "Automatiza tu Presencia en Redes Sociales",
-    "subtitle": "Programa, publica y gestiona tu contenido en Instagram, Twitter y LinkedIn sin esfuerzo.",
-    "cta": "Comenzar - Es Gratis",
-    "secondaryCta": "Saber Más"
+    "title": "Automatiza tu presencia en redes sociales",
+    "subtitle": "Programa, publica y gestiona tu contenido en Instagram, Twitter y LinkedIn de forma sencilla.",
+    "cta": "Comienza ahora - Es gratis",
+    "secondaryCta": "Más información"
   },
   "features": {
-    "title": "¿Por qué elegir Conexus?",
-    "subtitle": "Potentes funciones diseñadas para simplificar tu flujo de trabajo en redes sociales",
+    "title": "Características Clave",
+    "subtitle": "Todo lo que necesitas para gestionar tu presencia en redes sociales",
     "scheduling": {
       "title": "Programación Inteligente",
-      "description": "Optimiza tus publicaciones con recomendaciones basadas en analíticas de audiencia con IA."
+      "description": "Planifica y programa tu contenido en todas las plataformas"
     },
     "analytics": {
-      "title": "Analíticas Completas",
-      "description": "Sigue métricas de rendimiento en todas las plataformas desde un panel unificado."
+      "title": "Análisis de Rendimiento",
+      "description": "Controla la interacción y descubre qué funciona"
     },
     "automation": {
-      "title": "Automatización de Contenido",
-      "description": "Crea variaciones de publicaciones y programa contenido en múltiples plataformas simultáneamente."
+      "title": "Automatización Inteligente",
+      "description": "Ahorra tiempo con sugerencias de contenido impulsadas por IA"
     },
     "management": {
-      "title": "Colaboración en Equipo",
-      "description": "Colabora perfectamente con miembros del equipo a través de espacios de trabajo compartidos."
+      "title": "Gestión de Equipos",
+      "description": "Colabora con tu equipo sin complicaciones"
+    },
+    "items": {
+      "multi-social": {
+        "title": "Programación Multired",
+        "description": "Programa publicaciones en Instagram, Twitter y LinkedIn con vistas previas específicas para cada plataforma. Nuestra interfaz intuitiva te permite personalizar cada publicación para la plataforma correspondiente mientras gestionas todo desde un solo lugar."
+      },
+      "project-based": {
+        "title": "Gestión por Proyectos",
+        "description": "Crea hasta 2 proyectos (ampliables mediante suscripción) para organizar tu contenido, medios y cuentas sociales. Perfecto para gestionar diferentes marcas, campañas o clientes."
+      },
+      "media-management": {
+        "title": "Gestión de Medios",
+        "description": "Sube y gestiona medios específicos por proyecto con miniaturas automáticas para videos. Todos los medios se sirven a través de CDN para una carga rápida y un rendimiento óptimo."
+      },
+      "collaboration": {
+        "title": "Colaboración",
+        "description": "Invita a miembros de tu equipo a colaborar en proyectos con permisos basados en roles. Se envían notificaciones por correo electrónico para las invitaciones, facilitando la formación de tu equipo."
+      },
+      "notifications": {
+        "title": "Notificaciones en la App",
+        "description": "Recibe alertas en tiempo real sobre el estado de las publicaciones (exitosas/fallidas) para que siempre estés al tanto de lo que ocurre con tu contenido programado."
+      },
+      "webhooks": {
+        "title": "Webhooks Personalizados",
+        "description": "Configura webhooks específicos para el proyecto para eventos como la publicación de una entrada. Integra con tus otras herramientas y automatiza tu flujo de trabajo."
+      },
+      "analytics": {
+        "title": "Analítica",
+        "description": "Visualiza analíticas básicas del proyecto (publicaciones publicadas/fallidas) y obtén datos de rendimiento en tiempo real desde las plataformas sociales para seguir tu progreso."
+      },
+      "mobile-first": {
+        "title": "Diseño Prioritario para Móvil",
+        "description": "Accede a todas las funciones desde cualquier dispositivo con nuestra interfaz responsiva y optimizada para móviles."
+      }
+    },
+    "page": {
+      "hero": {
+        "title": "Características y Capacidades",
+        "subtitle": "Descubre todas las formas en que Conexus puede ayudarte a gestionar tu presencia en redes sociales"
+      },
+      "sections": {
+        "publishing": {
+          "title": "Publicación y Programación",
+          "description": "Planifica, crea y programa tu contenido en todas las principales plataformas sociales. Nuestra interfaz intuitiva facilita la personalización de las publicaciones para cada plataforma mientras gestionas todo desde un solo lugar."
+        },
+        "analytics": {
+          "title": "Análisis e Insights",
+          "description": "Controla el rendimiento de tu contenido en las diferentes plataformas. Obtén insights valiosos sobre lo que funciona y lo que no, para que puedas mejorar continuamente tu estrategia en redes sociales."
+        },
+        "collaboration": {
+          "title": "Colaboración en Equipo",
+          "description": "Trabaja de manera colaborativa con tu equipo. Asigna roles, gestiona permisos y optimiza tu flujo de trabajo de contenido con nuestras herramientas de colaboración."
+        },
+        "contentManagement": {
+          "title": "Gestión de Contenido",
+          "description": "Organiza tus medios y contenido en un solo lugar. Nuestro sistema de gestión de contenido facilita la búsqueda y reutilización de tus recursos a través de múltiples campañas."
+        }
+      },
+      "comparison": {
+        "title": "Cómo nos Comparamos",
+        "description": "Observa cómo Conexus se diferencia de otras herramientas de gestión de redes sociales",
+        "headers": {
+          "feature": "Característica",
+          "conexus": "Conexus",
+          "others": "Otros"
+        },
+        "rows": [
+          {
+            "feature": "Programación en múltiples plataformas",
+            "conexus": "Incluido",
+            "others": "Solo en planes premium"
+          },
+          {
+            "feature": "Biblioteca de medios",
+            "conexus": "Ilimitada",
+            "others": "Almacenamiento limitado"
+          },
+          {
+            "feature": "Colaboración en equipo",
+            "conexus": "Hasta 5 usuarios gratis",
+            "others": "Pago por usuario"
+          },
+          {
+            "feature": "Analítica",
+            "conexus": "Incluido",
+            "others": "Básico únicamente"
+          },
+          {
+            "feature": "Acceso a API",
+            "conexus": "Incluido",
+            "others": "Solo para empresas"
+          },
+          {
+            "feature": "Flujos de trabajo personalizados",
+            "conexus": "Incluido",
+            "others": "No disponible"
+          }
+        ]
+      }
     }
   },
   "how_it_works": {
@@ -36,8 +135,8 @@
     "steps": [
       {
         "number": "1",
-        "title": "Conecta Tus Cuentas",
-        "description": "Vincula tus cuentas de redes sociales con unos pocos clics"
+        "title": "Conecta tus Cuentas",
+        "description": "Vincula tus cuentas de redes sociales con solo unos clics"
       },
       {
         "number": "2",
@@ -47,59 +146,59 @@
       {
         "number": "3",
         "title": "Analiza el Rendimiento",
-        "description": "Monitorea la participación y ajusta tu estrategia"
+        "description": "Controla la interacción y ajusta tu estrategia"
       }
     ],
-    "view_all": "Ver todas las características"
+    "view_all": "Ver todas las funciones"
   },
   "about": {
     "hero": {
-      "title": "Sobre Conexus",
+      "title": "Acerca de Conexus",
       "subtitle": "Nuestra misión es simplificar la gestión de redes sociales para empresas y creadores de todos los tamaños."
     },
     "mission": {
       "title": "Nuestra Misión",
-      "description": "En Conexus, creemos que la gestión de tu presencia en redes sociales debe ser simple, eficiente y efectiva. Nuestra plataforma está diseñada para ayudarte a ahorrar tiempo, aumentar la participación y lograr mejores resultados en todos tus canales sociales."
+      "description": "En Conexus, creemos que gestionar tu presencia en redes sociales debe ser simple, eficiente y efectivo. Nuestra plataforma está diseñada para ayudarte a ahorrar tiempo, aumentar la interacción y lograr mejores resultados en todos tus canales sociales."
     },
     "story": {
       "title": "Nuestra Historia",
-      "description1": "Conexus fue fundada en 2023 por un equipo de profesionales de redes sociales frustrados con la complejidad y los altos costos de las herramientas existentes. Nos propusimos crear una plataforma que combine características potentes con una interfaz intuitiva, haciendo que la gestión de redes sociales sea accesible para todos.",
-      "description2": "Lo que comenzó como una simple herramienta de programación ha evolucionado a una plataforma integral para planificación de contenido, colaboración y análisis. Hoy, Conexus ayuda a miles de usuarios a optimizar sus flujos de trabajo en redes sociales y lograr mejores resultados."
+      "description1": "Conexus fue fundada en 2023 por un equipo de profesionales de redes sociales que estaban frustrados con la complejidad y altos costos de las herramientas existentes. Nos propusimos crear una plataforma que combinara funciones potentes con una interfaz intuitiva, haciendo la gestión de redes sociales accesible para todos.",
+      "description2": "Lo que comenzó como una simple herramienta de programación ha evolucionado a una plataforma integral para la planificación de contenido, colaboración y analítica. Hoy, Conexus ayuda a miles de usuarios a optimizar sus flujos de trabajo en redes sociales y alcanzar mejores resultados."
     },
     "values": {
       "title": "Nuestros Valores",
       "items": [
         {
           "title": "Simplicidad",
-          "description": "Creemos que un software potente no tiene que ser complicado. Nos enfocamos en crear experiencias intuitivas que te ahorren tiempo y frustración."
+          "description": "Creemos que el software poderoso no tiene por qué ser complicado. Nos enfocamos en crear experiencias intuitivas que te ahorren tiempo y eviten frustraciones."
         },
         {
           "title": "Accesibilidad",
-          "description": "Las herramientas de redes sociales deben ser accesibles para todos, no solo para grandes empresas con grandes presupuestos. Estamos comprometidos a hacer que nuestra plataforma sea asequible e inclusiva."
+          "description": "Las herramientas de redes sociales deben estar al alcance de todos, y no solo de grandes empresas con altos presupuestos. Estamos comprometidos a hacer nuestra plataforma asequible e inclusiva."
         },
         {
           "title": "Innovación",
-          "description": "Constantemente exploramos nuevas formas de ayudarte a gestionar tus redes sociales de manera más efectiva. Adoptamos nuevas tecnologías y plataformas para mantenerte a la vanguardia."
+          "description": "Siempre estamos explorando nuevas formas de ayudarte a gestionar tus redes sociales de manera más efectiva. Adoptamos nuevas tecnologías y plataformas para mantenerte a la vanguardia."
         },
         {
           "title": "Transparencia",
-          "description": "Creemos en ser honestos y transparentes en todo lo que hacemos, desde nuestros precios hasta nuestra hoja de ruta de productos. Sin tarifas ocultas, sin sorpresas."
+          "description": "Creemos en la honestidad y transparencia en todo lo que hacemos, desde nuestros precios hasta nuestra hoja de ruta de productos. Sin cargos ocultos, sin sorpresas."
         }
       ]
     },
     "team": {
       "title": "Nuestro Equipo",
-      "subtitle": "Conexus está construido por un equipo apasionado de expertos en redes sociales, diseñadores y desarrolladores dedicados a ayudarte a tener éxito en línea.",
+      "subtitle": "Conexus está formado por un equipo apasionado de expertos en redes sociales, diseñadores y desarrolladores dedicados a ayudarte a triunfar en línea.",
       "members": [
         {
           "initials": "JM",
           "name": "Jane Mendoza",
-          "role": "Cofundadora y CEO"
+          "role": "Co-Fundadora y CEO"
         },
         {
           "initials": "MJ",
           "name": "Michael Johnson",
-          "role": "Cofundador y CTO"
+          "role": "Co-Fundador y CTO"
         },
         {
           "initials": "EW",
@@ -114,20 +213,230 @@
       ]
     }
   },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 15 de mayo de 2023",
+    "sections": [
+      {
+        "title": "1. Introducción",
+        "content": [
+          "En Conexus, nos tomamos tu privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando usas nuestra plataforma.",
+          "Por favor, lee esta Política de Privacidad cuidadosamente. Al acceder o usar nuestra plataforma, reconoces que has leído, comprendido y aceptado todos los términos aquí expuestos."
+        ]
+      },
+      {
+        "title": "2. Información que Recopilamos",
+        "subsections": [
+          {
+            "title": "2.1 Información Personal",
+            "content": "Podemos recopilar información personal que proporcionas voluntariamente al usar nuestra plataforma, incluyendo pero no limitándose a:",
+            "list": [
+              "Nombre",
+              "Correo electrónico",
+              "Número de teléfono",
+              "Información de la empresa",
+              "Información de facturación",
+              "Credenciales de cuentas de redes sociales (a través de autorización OAuth)"
+            ]
+          },
+          {
+            "title": "2.2 Datos de Uso",
+            "content": "Recopilamos automáticamente cierta información cuando visitas, usas o navegas en nuestra plataforma. Esta información puede incluir:",
+            "list": [
+              "Dirección IP",
+              "Tipo y versión del navegador",
+              "Tipo de dispositivo",
+              "Sistema operativo",
+              "Páginas visitadas y tiempo invertido",
+              "Sitio de referencia",
+              "Estadísticas de clics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Cómo Usamos tu Información",
+        "content": [
+          "Utilizamos la información que recopilamos para diversos propósitos, incluyendo:"
+        ],
+        "list": [
+          "Proveer, operar y mantener nuestra plataforma",
+          "Mejorar, personalizar y expandir nuestra plataforma",
+          "Programar y publicar contenido en tus cuentas de redes sociales conectadas",
+          "Obtener análisis de tus cuentas de redes sociales",
+          "Entender y analizar tendencias de uso",
+          "Desarrollar nuevos productos, servicios y funcionalidades",
+          "Comunicarnos contigo sobre nuestros servicios",
+          "Procesar transacciones y enviar información relacionada",
+          "Proteger contra, identificar y prevenir fraudes y otras actividades ilegales"
+        ]
+      },
+      {
+        "title": "4. Retención de Datos",
+        "content": [
+          "Conservaremos tu información personal solo durante el tiempo necesario para cumplir con los fines establecidos en esta Política de Privacidad o según lo requiera la ley. Cuando ya no necesitemos utilizar tu información, tomaremos medidas para eliminarla de nuestros sistemas o anonimizarla."
+        ]
+      },
+      {
+        "title": "5. Seguridad de los Datos",
+        "content": [
+          "Implementamos medidas de seguridad técnicas y organizativas adecuadas para proteger tu información contra accesos no autorizados, divulgación, alteración y destrucción. Sin embargo, ningún método de transmisión por Internet o de almacenamiento electrónico es 100% seguro, por lo que no podemos garantizar una seguridad absoluta."
+        ]
+      },
+      {
+        "title": "6. Servicios de Terceros",
+        "content": [
+          "Nuestra plataforma se integra con varios servicios de terceros, incluyendo plataformas de redes sociales. Al conectar tus cuentas de redes sociales a nuestra plataforma, nos autorizas a interactuar con estas plataformas en tu nombre. Ten en cuenta que las prácticas de privacidad de estos terceros se rigen por sus propias políticas de privacidad, y no nos hacemos responsables de ellas."
+        ]
+      },
+      {
+        "title": "7. Tus Derechos",
+        "content": [
+          "Dependiendo de tu ubicación, puedes tener ciertos derechos sobre tu información personal, incluyendo:"
+        ],
+        "list": [
+          "El derecho a acceder a la información personal que tenemos sobre ti",
+          "El derecho a solicitar la corrección de información inexacta",
+          "El derecho a solicitar la eliminación de tu información",
+          "El derecho a restringir u oponerte al procesamiento",
+          "El derecho a la portabilidad de los datos"
+        ],
+        "additionalContent": [
+          "Para ejercer estos derechos, por favor contáctanos utilizando la información proporcionada en la sección \"Contáctanos\"."
+        ]
+      },
+      {
+        "title": "8. Privacidad de los Menores",
+        "content": [
+          "Nuestra plataforma no está dirigida a personas menores de 18 años. No recopilamos ni solicitamos conscientemente información personal de menores. Si eres padre o tutor y crees que tu hijo nos ha proporcionado información personal, por favor contáctanos de inmediato."
+        ]
+      },
+      {
+        "title": "9. Cambios en esta Política de Privacidad",
+        "content": [
+          "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas o por razones operativas, legales o regulatorias. Te notificaremos de cualquier cambio material mediante la publicación de la Política de Privacidad actualizada en nuestro sitio web o a través de otros canales de comunicación."
+        ]
+      },
+      {
+        "title": "10. Contáctanos",
+        "content": [
+          "Si tienes preguntas o inquietudes sobre esta Política de Privacidad o nuestras prácticas de privacidad, por favor contáctanos en:",
+          "privacy@conexus.ai"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 15 de mayo de 2023",
+    "sections": [
+      {
+        "title": "1. Introducción",
+        "content": [
+          "Bienvenido a Conexus (\"nosotros\", \"nuestro\" o \"nos\"). Estos Términos de Servicio (\"Términos\") rigen tu acceso y uso de la plataforma Conexus, incluyendo nuestro sitio web, aplicaciones móviles y todos los servicios relacionados (colectivamente, el \"Servicio\").",
+          "Al acceder o usar el Servicio, aceptas estar sujeto a estos Términos. Si no estás de acuerdo con estos Términos, no debes acceder ni usar el Servicio."
+        ]
+      },
+      {
+        "title": "2. Elegibilidad",
+        "content": [
+          "Debes tener al menos 18 años para usar el Servicio. Al usar el Servicio, declaras y garantizas que tienes al menos 18 años y la capacidad legal para aceptar estos Términos."
+        ]
+      },
+      {
+        "title": "3. Registro de Cuenta",
+        "content": [
+          "Para utilizar ciertas funciones del Servicio, es posible que necesites registrarte para obtener una cuenta. Aceptas proporcionar información precisa, actual y completa durante el proceso de registro y actualizar dicha información para mantenerla precisa y actualizada.",
+          "Eres responsable de salvaguardar las credenciales de tu cuenta y de todas las actividades que ocurran bajo tu cuenta. Aceptas notificarnos inmediatamente de cualquier uso no autorizado de tu cuenta."
+        ]
+      },
+      {
+        "title": "4. Período de Prueba Gratuito",
+        "content": [
+          "Conexus ofrece un período de prueba gratuito hasta el 1 de junio de 2025. Durante este período, tendrás acceso a todas las funciones premium del Servicio sin costo. Después de que finalice el período de prueba, es posible que debas suscribirte a un plan de pago para continuar usando ciertas funciones del Servicio."
+        ]
+      },
+      {
+        "title": "5. Contenido del Usuario",
+        "content": [
+          "El Servicio te permite crear, subir, publicar, enviar, recibir y almacenar contenido, incluyendo texto, imágenes, videos y otros materiales (\"Contenido del Usuario\"). Conservas todos los derechos sobre tu Contenido del Usuario.",
+          "Al crear, subir, publicar, enviar, recibir o almacenar Contenido del Usuario en o a través del Servicio, nos otorgas una licencia mundial, no exclusiva, libre de regalías para usar, alojar, almacenar, reproducir, modificar, adaptar, publicar y distribuir tu Contenido del Usuario con el fin de operar y proveer el Servicio para ti y otros usuarios."
+        ]
+      },
+      {
+        "title": "6. Conducta Prohibida",
+        "content": [
+          "Aceptas no participar en ninguna de las siguientes actividades prohibidas:"
+        ],
+        "list": [
+          "Utilizar el Servicio para cualquier propósito ilegal o en violación de cualquier ley local, estatal, nacional o internacional;",
+          "Violar o infringir los derechos de otros, incluyendo sus derechos de propiedad intelectual;",
+          "Publicar, subir o compartir contenido que sea dañino, amenazante, abusivo, acosador, difamatorio, vulgar, obsceno o de otra manera objetable;",
+          "Suplantar a cualquier persona o entidad, o declarar falsamente o de forma engañosa tu afiliación con alguna persona o entidad;",
+          "Interferir o interrumpir el Servicio o los servidores o redes conectados al Servicio;",
+          "Intentar obtener acceso no autorizado al Servicio o a las cuentas de otros usuarios;",
+          "Utilizar medios automáticos para acceder al Servicio o recolectar información del mismo."
+        ]
+      },
+      {
+        "title": "7. Propiedad Intelectual",
+        "content": [
+          "El Servicio y su contenido original, características y funcionalidad seguirán siendo propiedad exclusiva de Conexus y sus licenciantes. El Servicio está protegido por derechos de autor, marcas registradas y otras leyes tanto de los Estados Unidos como de otros países."
+        ]
+      },
+      {
+        "title": "8. Terminación",
+        "content": [
+          "Podemos terminar o suspender tu cuenta y el acceso al Servicio de forma inmediata, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo si incumples estos Términos.",
+          "Al terminar la cuenta, tu derecho a usar el Servicio cesará de inmediato. Si deseas terminar tu cuenta, simplemente deja de usar el Servicio o contáctanos para solicitar la eliminación de tu cuenta."
+        ]
+      },
+      {
+        "title": "9. Descargo de Responsabilidad de Garantías",
+        "content": [
+          "EL SERVICIO SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\" SIN GARANTÍAS DE NINGÚN TIPO, YA SEAN EXPRESAS O IMPLÍCITAS, INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, TÍTULO Y NO INFRACCIÓN."
+        ]
+      },
+      {
+        "title": "10. Limitación de Responsabilidad",
+        "content": [
+          "EN NINGÚN CASO CONEXUS, NI SUS DIRECTORES, EMPLEADOS, SOCIOS, AGENTES, PROVEEDORES O AFILIADOS SERÁN RESPONSABLES DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES O PUNITIVOS, INCLUYENDO, SIN LIMITACIÓN, LA PÉRDIDA DE BENEFICIOS, DATOS, USO, BUENA VOLUNTAD U OTRAS PÉRDIDAS INTANGIBLES, RESULTANTES DE TU ACCESO, USO O INCAPACIDAD DE ACCEDER O USAR EL SERVICIO."
+        ]
+      },
+      {
+        "title": "11. Cambios en los Términos",
+        "content": [
+          "Nos reservamos el derecho de modificar o reemplazar estos Términos en cualquier momento. Si se realiza un cambio material, proporcionaremos un aviso con al menos 30 días de anticipación antes de que los nuevos términos entren en vigor. Lo que constituye un cambio material será determinado a nuestra entera discreción."
+        ]
+      },
+      {
+        "title": "12. Ley Aplicable",
+        "content": [
+          "Estos Términos se regirán e interpretarán de acuerdo con las leyes del Estado de California, sin tener en cuenta sus disposiciones sobre conflictos de leyes."
+        ]
+      },
+      {
+        "title": "13. Contáctanos",
+        "content": [
+          "Si tienes preguntas sobre estos Términos, por favor contáctanos en legal@conexus.ai."
+        ]
+      }
+    ]
+  },
   "pricing": {
-    "title": "Completamente Gratis Hasta el 1 de Junio, 2025",
+    "title": "Totalmente Gratis Hasta el 1 de Junio de 2025",
     "subtitle": "No se requiere tarjeta de crédito. Acceso completo a todas las funciones premium.",
     "free": {
       "title": "Plan Gratuito",
-      "description": "Todo lo que necesitas para empezar",
+      "description": "Todo lo que necesitas para comenzar",
       "price": "$0",
-      "period": "hasta el 1 de junio, 2025"
+      "period": "hasta el 1 de junio de 2025"
     },
     "future": {
-      "title": "Premium Futuro",
+      "title": "Futuro Premium",
       "description": "Después del 1 de junio de 2025",
       "price": "$19.99",
-      "period": "por mes"
+      "period": "mensual"
     }
   },
   "testimonials": {
@@ -137,10 +446,10 @@
   "cta": {
     "title": "¿Listo para Potenciar tus Redes Sociales?",
     "subtitle": "Comienza gratis hoy - no se requiere tarjeta de crédito",
-    "button": "Comenzar Ahora"
+    "button": "Comienza ahora"
   },
   "footer": {
-    "tagline": "Automatiza tu presencia en redes sociales en todas las plataformas",
+    "tagline": "Automatiza tu presencia en redes sociales a través de múltiples plataformas",
     "freeUntil": "Gratis hasta",
     "links": "Enlaces Rápidos",
     "legal": "Legal",
@@ -148,4 +457,4 @@
     "terms": "Términos de Servicio",
     "rights": "Todos los derechos reservados"
   }
-} 
+}

@@ -4,7 +4,6 @@ import React from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { useLanguage } from '../i18n/LanguageProvider';
 import { languages } from '../i18n/config';
-import { getLanguagePath } from '../i18n/utils'; 
 import styles from '../styles/LanguageSelector.module.css';
 
 const LanguageSelector: React.FC = () => {

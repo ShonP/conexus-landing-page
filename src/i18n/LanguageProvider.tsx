@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext } from 'react';
 import { Language } from './config';
 
 // Import translations
@@ -11,7 +11,8 @@ import arTranslations from './translations/ar.json';
 import heTranslations from './translations/he.json';
 
 // Define translations type
-type Translations = Record<string, any>;
+type TranslationValue = string | number | boolean | Record<string, unknown> | Array<unknown>;
+type Translations = Record<string, TranslationValue>;
 
 // Define available translations
 const translationsMap: Record<string, Translations> = {
