@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '../i18n/LanguageProvider';
 import { getLanguagePath } from '../i18n/utils';
@@ -18,6 +18,39 @@ interface Step {
 export default function Home() {
   const { language } = useLanguage();
   const { t } = useTranslation();
+  
+  const featuresRef = useRef<HTMLElement>(null);
+  const stepsRef = useRef<HTMLElement>(null);
+  
+  useEffect(() => {
+    // Set up intersection observer for scroll-based animations
+    const observerOptions = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.1 // Trigger when 10% of the element is visible
+    };
+    
+    const handleIntersect = (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(styles.visible);
+          // Once the animation has played, we can stop observing this element
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+    
+    const observer = new IntersectionObserver(handleIntersect, observerOptions);
+    
+    // Observe the sections
+    if (featuresRef.current) observer.observe(featuresRef.current);
+    if (stepsRef.current) observer.observe(stepsRef.current);
+    
+    // Clean up the observer on component unmount
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <div className={styles.home}>
@@ -54,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.features}>
+      <section ref={featuresRef} className={`${styles.features} ${styles.animatedSection}`}>
         <h2>{t('features.title')}</h2>
         <p>{t('features.subtitle')}</p>
         <div className={styles.featureGrid}>
@@ -86,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.steps}>
+      <section ref={stepsRef} className={`${styles.steps} ${styles.animatedSection}`}>
         <h2>{t('how_it_works.title')}</h2>
         <div className={styles.stepList}>
           {(t('how_it_works.steps', { returnObjects: true }) as Step[]).map((step, index) => (

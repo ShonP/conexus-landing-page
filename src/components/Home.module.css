@@ -1,3 +1,70 @@
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .home {
   width: 100%;
 }
@@ -12,6 +79,7 @@
 
 .heroContent {
   flex: 1;
+  animation: slideInFromLeft 0.8s ease-out forwards;
 }
 
 .heroContent h1 {
@@ -22,6 +90,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: fadeIn 1s ease-out forwards;
 }
 
 .heroContent p {
@@ -30,12 +99,14 @@
   margin-bottom: var(--space-large);
   color: var(--color-foreground);
   max-width: 600px;
+  animation: fadeIn 1.2s ease-out forwards;
 }
 
 .cta {
   display: flex;
   gap: var(--space-medium);
   margin-bottom: var(--space-large);
+  animation: fadeIn 1.4s ease-out forwards;
 }
 
 .primaryButton {
@@ -46,11 +117,13 @@
   text-decoration: none;
   border-radius: var(--radius-medium);
   font-weight: bold;
-  transition: background-color var(--transition-normal);
+  transition: all var(--transition-normal);
 }
 
 .primaryButton:hover {
   background-color: var(--color-secondary);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .secondaryButton {
@@ -68,6 +141,8 @@
 .secondaryButton:hover {
   background-color: var(--color-primary);
   color: var(--color-text-on-primary);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .freeBanner {
@@ -78,6 +153,12 @@
   display: flex;
   align-items: center;
   gap: var(--space-medium);
+  animation: fadeIn 1.6s ease-out forwards;
+  transition: transform var(--transition-normal);
+}
+
+.freeBanner:hover {
+  transform: translateY(-3px);
 }
 
 .badge {
@@ -88,6 +169,7 @@
   font-size: var(--font-size-small);
   font-weight: bold;
   text-transform: uppercase;
+  animation: pulse 2s infinite ease-in-out;
 }
 
 .heroImage {
@@ -95,38 +177,68 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slideInFromRight 0.8s ease-out forwards;
 }
 
 .imagePlaceholder {
   width: 100%;
-  aspect-ratio: 4/3;
-  border-radius: var(--radius-large);
-  overflow: hidden;
+  height: 300px;
   background-color: var(--color-card);
+  border-radius: var(--radius-medium);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--color-foreground);
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+}
+
+.imagePlaceholder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
 .mockup {
-  width: 90%;
-  height: 90%;
-  border-radius: var(--radius-medium);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  opacity: 0.7;
   position: relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--radius-large);
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  animation: float 6s ease-in-out infinite;
 }
 
 .mockup::before {
-  content: "";
+  content: '';
   position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
-  border-radius: var(--radius-small);
-  background-color: var(--color-background);
-  opacity: 0.8;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  border-top-left-radius: var(--radius-medium);
+  border-top-right-radius: var(--radius-medium);
 }
 
 /* Features Section */
@@ -153,17 +265,41 @@
   border-radius: var(--radius-medium);
   padding: var(--space-large);
   text-align: center;
-  transition: transform var(--transition-normal);
+  transition: all var(--transition-normal);
   border: 1px solid var(--color-border);
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+}
+
+.featureCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.featureCard:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.featureCard:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.featureCard:nth-child(4) {
+  animation-delay: 0.7s;
 }
 
 .featureCard:hover {
   transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .featureIcon {
   font-size: 2.5rem;
   margin-bottom: var(--space-medium);
+  transition: transform var(--transition-normal);
+}
+
+.featureCard:hover .featureIcon {
+  transform: scale(1.2);
 }
 
 .featureCard h3 {
@@ -178,6 +314,9 @@
 
 .viewAll {
   margin-top: var(--space-large);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 1s;
 }
 
 .viewAll a {
@@ -187,10 +326,12 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-small);
+  transition: all var(--transition-normal);
 }
 
 .viewAll a:hover {
   text-decoration: underline;
+  transform: translateX(5px);
 }
 
 /* Steps Section */
@@ -218,6 +359,26 @@
   border-radius: var(--radius-medium);
   text-align: center;
   border: 1px solid var(--color-border);
+  transition: all var(--transition-normal);
+  opacity: 0;
+  animation: slideInFromBottom 0.6s ease-out forwards;
+}
+
+.step:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.step:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.step:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .stepNumber {
@@ -231,6 +392,11 @@
   align-items: center;
   font-weight: bold;
   margin: 0 auto var(--space-medium);
+  transition: transform var(--transition-normal);
+}
+
+.step:hover .stepNumber {
+  transform: scale(1.1);
 }
 
 .step h3 {
@@ -290,4 +456,16 @@
   .featureGrid, .stepList {
     grid-template-columns: 1fr;
   }
+}
+
+/* Scroll-based animations */
+.animatedSection {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animatedSection.visible {
+  opacity: 1;
+  transform: translateY(0);
 } 
