@@ -42,7 +42,7 @@
   display: inline-block;
   padding: var(--space-medium) var(--space-large);
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
   text-decoration: none;
   border-radius: var(--radius-medium);
   font-weight: bold;
@@ -67,7 +67,7 @@
 
 .secondaryButton:hover {
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
 }
 
 .freeBanner {
@@ -82,7 +82,7 @@
 
 .badge {
   background-color: var(--color-accent);
-  color: white;
+  color: var(--color-text-on-accent);
   padding: var(--space-small) var(--space-medium);
   border-radius: var(--radius-small);
   font-size: var(--font-size-small);
@@ -225,7 +225,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
   display: flex;
   justify-content: center;
   align-items: center;

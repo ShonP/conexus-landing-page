@@ -4,7 +4,7 @@
   padding: var(--space-xlarge);
   margin: var(--space-xlarge) 0;
   text-align: center;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-lg);
 }
 
 .content {
@@ -34,7 +34,7 @@
   display: inline-block;
   padding: var(--space-medium) var(--space-xlarge);
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
   border-radius: var(--radius-medium);
   font-weight: bold;
   text-decoration: none;
