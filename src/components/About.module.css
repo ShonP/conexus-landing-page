@@ -1,0 +1,242 @@
+.about {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-bottom: var(--space-xlarge);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: var(--space-medium);
+  color: var(--color-primary);
+}
+
+.hero p {
+  font-size: var(--font-size-large);
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--color-foreground);
+}
+
+/* Mission Section */
+.mission {
+  max-width: 800px;
+  margin: 0 auto var(--space-xlarge);
+  text-align: center;
+}
+
+.mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-large);
+  color: var(--color-foreground);
+}
+
+.mission p {
+  line-height: 1.6;
+  margin-bottom: var(--space-medium);
+  color: var(--color-foreground);
+}
+
+/* Story Section */
+.story {
+  display: flex;
+  gap: var(--space-xlarge);
+  margin-bottom: var(--space-xlarge);
+  align-items: center;
+}
+
+.storyContent {
+  flex: 1;
+}
+
+.storyContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-large);
+  color: var(--color-foreground);
+}
+
+.storyContent p {
+  line-height: 1.6;
+  margin-bottom: var(--space-medium);
+  color: var(--color-foreground);
+}
+
+.storyImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  opacity: 0.8;
+}
+
+/* Values Section */
+.values {
+  margin-bottom: var(--space-xlarge);
+  text-align: center;
+}
+
+.values h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-large);
+  color: var(--color-foreground);
+}
+
+.valueGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-large);
+}
+
+.valueCard {
+  background-color: var(--color-card);
+  border-radius: var(--radius-medium);
+  padding: var(--space-large);
+  text-align: center;
+  border: 1px solid var(--color-border);
+  transition: transform var(--transition-normal);
+}
+
+.valueCard:hover {
+  transform: translateY(-5px);
+}
+
+.valueCard h3 {
+  margin-bottom: var(--space-medium);
+  color: var(--color-primary);
+}
+
+.valueCard p {
+  line-height: 1.6;
+  color: var(--color-foreground);
+}
+
+/* Team Section */
+.team {
+  margin-bottom: var(--space-xlarge);
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-medium);
+  color: var(--color-foreground);
+}
+
+.teamIntro {
+  max-width: 800px;
+  margin: 0 auto var(--space-large);
+  color: var(--color-foreground);
+  line-height: 1.6;
+}
+
+.memberGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-large);
+}
+
+.memberCard {
+  text-align: center;
+}
+
+.memberPhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--color-card);
+  margin: 0 auto var(--space-medium);
+  border: 1px solid var(--color-border);
+  background: linear-gradient(45deg, var(--color-card) 0%, var(--color-border) 100%);
+}
+
+.memberCard h3 {
+  margin-bottom: var(--space-small);
+  color: var(--color-foreground);
+}
+
+.memberCard p {
+  color: var(--color-foreground);
+  opacity: 0.8;
+}
+
+/* Free Access Section */
+.freeAccess {
+  margin-bottom: var(--space-large);
+}
+
+.freeCard {
+  background-color: var(--color-card);
+  border-radius: var(--radius-large);
+  padding: var(--space-xlarge);
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.freeCard h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-medium);
+  color: var(--color-primary);
+}
+
+.freeCard p {
+  line-height: 1.6;
+  margin-bottom: var(--space-medium);
+  color: var(--color-foreground);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-block;
+  margin-top: var(--space-large);
+  padding: var(--space-medium) var(--space-xlarge);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-medium);
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color var(--transition-normal);
+}
+
+.ctaButton:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .story {
+    flex-direction: column;
+  }
+  
+  .hero h1,
+  .mission h2,
+  .storyContent h2,
+  .values h2,
+  .team h2,
+  .freeCard h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .memberGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .memberGrid {
+    grid-template-columns: 1fr;
+  }
+} 

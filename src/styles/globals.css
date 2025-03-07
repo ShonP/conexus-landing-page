@@ -1,0 +1,148 @@
+:root {
+  /* Light theme variables */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #181818;
+  --text-secondary: #5f5f5f;
+  --accent-color: #0070f3;
+  --accent-color-light: rgba(0, 112, 243, 0.1);
+  --accent-color-dark: #0051a8;
+  --border-color: #e5e5e5;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+
+  /* Light mode variables */
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-primary: #0070f3;
+  --color-secondary: #00c7b7;
+  --color-card: #f7f7f7;
+  --color-border: #eaeaea;
+  --color-accent: #ff4081;
+
+  /* Spacing */
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 2rem;
+  --space-xlarge: 4rem;
+
+  /* Font sizes */
+  --font-size-small: 0.875rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 1.5rem;
+  --font-size-xlarge: 2rem;
+
+  /* Border radius */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 16px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+  
+  /* Direction (default is LTR) */
+  --direction: ltr;
+  --start: left;
+  --end: right;
+  --text-align-start: left;
+  --text-align-end: right;
+  --padding-start: 0;
+  --padding-end: 40px;
+  --margin-start: 0;
+  --margin-end: var(--space-medium);
+  --transform-direction: 1; /* For RTL transforms */
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+  /* Dark theme variables */
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #f0f0f0;
+  --text-secondary: #a0a0a0;
+  --accent-color: #3291ff;
+  --accent-color-light: rgba(50, 145, 255, 0.15);
+  --accent-color-dark: #1e70f0;
+  --border-color: #333333;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+/* RTL support */
+[dir="rtl"] {
+  --direction: rtl;
+  --start: right;
+  --end: left;
+  --text-align-start: right;
+  --text-align-end: left;
+  --padding-start: 40px;
+  --padding-end: 0;
+  --margin-start: var(--space-medium);
+  --margin-end: 0;
+  --transform-direction: -1;
+}
+
+/* Global styles */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+code, pre {
+  font-family: var(--font-geist-mono), 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Icon direction */
+.icon-arrow {
+  transform: scaleX(var(--transform-direction));
+}
+
+/* For RTL languages */
+[dir="rtl"] .icon-mirror {
+  transform: scaleX(var(--transform-direction));
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Fix focus outline for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+} 

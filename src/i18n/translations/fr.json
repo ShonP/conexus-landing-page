@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "about": "À Propos",
+    "login": "Connexion"
+  },
+  "hero": {
+    "title": "Automatisez Votre Présence sur les Réseaux Sociaux",
+    "subtitle": "Planifiez, publiez et gérez sans effort votre contenu sur Instagram, Twitter et LinkedIn.",
+    "cta": "Commencer - C'est Gratuit",
+    "secondaryCta": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Pourquoi Choisir Conexus?",
+    "subtitle": "Des fonctionnalités puissantes conçues pour simplifier votre flux de travail sur les réseaux sociaux",
+    "scheduling": {
+      "title": "Planification Intelligente",
+      "description": "Optimisez vos publications grâce à des recommandations pilotées par l'IA et basées sur l'analyse de votre audience."
+    },
+    "analytics": {
+      "title": "Analyses Complètes",
+      "description": "Suivez les performances sur toutes les plateformes depuis un tableau de bord unifié."
+    },
+    "automation": {
+      "title": "Automatisation du Contenu",
+      "description": "Créez des variantes de publications et planifiez du contenu sur plusieurs plateformes simultanément."
+    },
+    "management": {
+      "title": "Collaboration d'Équipe",
+      "description": "Collaborez facilement avec les membres de votre équipe grâce aux espaces de travail partagés."
+    }
+  },
+  "how_it_works": {
+    "title": "Comment Ça Marche",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Connectez Vos Comptes",
+        "description": "Liez vos comptes de réseaux sociaux en quelques clics"
+      },
+      {
+        "number": "2",
+        "title": "Créez du Contenu",
+        "description": "Créez et planifiez vos publications en un seul endroit"
+      },
+      {
+        "number": "3",
+        "title": "Analysez les Performances",
+        "description": "Suivez l'engagement et ajustez votre stratégie"
+      }
+    ],
+    "view_all": "Voir toutes les fonctionnalités"
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de Conexus",
+      "subtitle": "Notre mission est de simplifier la gestion des réseaux sociaux pour les entreprises et créateurs de toutes tailles."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Chez Conexus, nous croyons que la gestion de votre présence sur les réseaux sociaux devrait être simple, efficace et performante. Notre plateforme est conçue pour vous aider à gagner du temps, augmenter l'engagement et obtenir de meilleurs résultats sur tous vos canaux sociaux."
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "description1": "Conexus a été fondée en 2023 par une équipe de professionnels des médias sociaux qui étaient frustrés par la complexité et les coûts élevés des outils existants. Nous avons entrepris de créer une plateforme qui combine des fonctionnalités puissantes avec une interface intuitive, rendant la gestion des réseaux sociaux accessible à tous.",
+      "description2": "Ce qui a commencé comme un simple outil de planification a évolué en une plateforme complète pour la planification de contenu, la collaboration et l'analyse. Aujourd'hui, Conexus aide des milliers d'utilisateurs à optimiser leurs flux de travail sur les réseaux sociaux et à obtenir de meilleurs résultats."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "title": "Simplicité",
+          "description": "Nous croyons qu'un logiciel puissant n'a pas besoin d'être compliqué. Nous nous concentrons sur la création d'expériences intuitives qui vous font gagner du temps et évitent les frustrations."
+        },
+        {
+          "title": "Accessibilité",
+          "description": "Les outils de médias sociaux devraient être accessibles à tous, pas seulement aux grandes entreprises disposant de budgets importants. Nous nous engageons à rendre notre plateforme abordable et inclusive."
+        },
+        {
+          "title": "Innovation",
+          "description": "Nous explorons constamment de nouvelles façons de vous aider à gérer vos réseaux sociaux plus efficacement. Nous adoptons de nouvelles technologies et plateformes pour vous garder à la pointe."
+        },
+        {
+          "title": "Transparence",
+          "description": "Nous croyons en l'honnêteté et la transparence dans tout ce que nous faisons, de nos tarifs à notre feuille de route produit. Pas de frais cachés, pas de surprises."
+        }
+      ]
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "subtitle": "Conexus est construit par une équipe passionnée d'experts en réseaux sociaux, de designers et de développeurs dédiés à vous aider à réussir en ligne.",
+      "members": [
+        {
+          "initials": "JM",
+          "name": "Jane Mendoza",
+          "role": "Co-fondatrice & PDG"
+        },
+        {
+          "initials": "MJ",
+          "name": "Michael Johnson",
+          "role": "Co-fondateur & Directeur technique"
+        },
+        {
+          "initials": "EW",
+          "name": "Emily Wong",
+          "role": "Responsable produit"
+        },
+        {
+          "initials": "DR",
+          "name": "David Rodriguez",
+          "role": "Développeur principal"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Complètement Gratuit Jusqu'au 1er Juin 2025",
+    "subtitle": "Pas de carte de crédit requise. Accès complet à toutes les fonctionnalités premium.",
+    "free": {
+      "title": "Plan Gratuit",
+      "description": "Tout ce dont vous avez besoin pour commencer",
+      "price": "0€",
+      "period": "jusqu'au 1er juin 2025"
+    },
+    "future": {
+      "title": "Premium Futur",
+      "description": "Après le 1er juin 2025",
+      "price": "19,99€",
+      "period": "par mois"
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Utilisateurs",
+    "subtitle": "Rejoignez des milliers de créateurs de contenu et d'entreprises qui font confiance à Conexus"
+  },
+  "cta": {
+    "title": "Prêt à Booster Vos Réseaux Sociaux?",
+    "subtitle": "Commencez gratuitement aujourd'hui - aucune carte de crédit requise",
+    "button": "Commencer"
+  },
+  "footer": {
+    "tagline": "Automatisez votre présence sur les réseaux sociaux sur toutes les plateformes",
+    "freeUntil": "Gratuit jusqu'au",
+    "links": "Liens Rapides",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "rights": "Tous droits réservés"
+  }
+} 

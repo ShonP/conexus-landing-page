@@ -1,0 +1,460 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Automate Your Social Media Presence",
+    "subtitle": "Seamlessly schedule, publish, and manage your content across Instagram, Twitter, and LinkedIn.",
+    "cta": "Get Started - It's Free",
+    "secondaryCta": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Everything you need to manage your social media presence",
+    "scheduling": {
+      "title": "Smart Scheduling",
+      "description": "Plan and schedule your content across all platforms"
+    },
+    "analytics": {
+      "title": "Performance Analytics",
+      "description": "Track engagement and understand what works"
+    },
+    "automation": {
+      "title": "Intelligent Automation",
+      "description": "Save time with AI-powered content suggestions"
+    },
+    "management": {
+      "title": "Team Management",
+      "description": "Collaborate with your team seamlessly"
+    },
+    "items": {
+      "multi-social": {
+        "title": "Multi-Social Scheduling",
+        "description": "Schedule posts across Instagram, Twitter, and LinkedIn with platform-specific previews. Our intuitive interface lets you customize each post for the specific platform while managing everything from one place."
+      },
+      "project-based": {
+        "title": "Project-Based Management",
+        "description": "Create up to 2 projects (expandable via subscriptions) to organize your content, media, and social accounts. Perfect for managing different brands, campaigns, or clients."
+      },
+      "media-management": {
+        "title": "Media Management",
+        "description": "Upload and manage project-specific media with automatic thumbnails for videos. All media is served via CDN for fast loading and optimal performance."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Invite team members to collaborate on projects with role-based permissions. Email notifications are sent for invites, making it easy to build your team."
+      },
+      "notifications": {
+        "title": "In-App Notifications",
+        "description": "Get real-time alerts for post status (success/failed) so you always know what's happening with your scheduled content."
+      },
+      "webhooks": {
+        "title": "Custom Webhooks",
+        "description": "Set up project-specific webhooks for events like post published. Integrate with your other tools and automate your workflow."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "View basic project analytics (posts published/failed) and fetch real-time performance data from social platforms to track your progress."
+      },
+      "mobile-first": {
+        "title": "Mobile-First Design",
+        "description": "Access all features on any device with our responsive, mobile-optimized interface."
+      }
+    },
+    "page": {
+      "hero": {
+        "title": "Features & Capabilities",
+        "subtitle": "Discover all the ways Conexus can help you manage your social media presence"
+      },
+      "sections": {
+        "publishing": {
+          "title": "Publishing & Scheduling",
+          "description": "Plan, create, and schedule your content across all major social platforms. Our intuitive interface makes it easy to customize posts for each platform while managing everything in one place."
+        },
+        "analytics": {
+          "title": "Analytics & Insights",
+          "description": "Track the performance of your content across platforms. Get valuable insights into what's working and what's not, so you can continuously improve your social media strategy."
+        },
+        "collaboration": {
+          "title": "Team Collaboration",
+          "description": "Work together seamlessly with your team. Assign roles, manage permissions, and streamline your content workflow with our collaboration tools."
+        },
+        "contentManagement": {
+          "title": "Content Management",
+          "description": "Organize your media and content in one place. Our content management system makes it easy to find and reuse your assets across multiple campaigns."
+        }
+      },
+      "comparison": {
+        "title": "How We Compare",
+        "description": "See how Conexus stacks up against other social media management tools",
+        "headers": {
+          "feature": "Feature",
+          "conexus": "Conexus",
+          "others": "Others"
+        },
+        "rows": [
+          {
+            "feature": "Multi-platform scheduling",
+            "conexus": "Included",
+            "others": "Premium only"
+          },
+          {
+            "feature": "Media library",
+            "conexus": "Unlimited",
+            "others": "Limited storage"
+          },
+          {
+            "feature": "Team collaboration",
+            "conexus": "Up to 5 users free",
+            "others": "Paid per user"
+          },
+          {
+            "feature": "Analytics",
+            "conexus": "Included",
+            "others": "Basic only"
+          },
+          {
+            "feature": "API access",
+            "conexus": "Included",
+            "others": "Enterprise only"
+          },
+          {
+            "feature": "Custom workflows",
+            "conexus": "Included",
+            "others": "Not available"
+          }
+        ]
+      }
+    }
+  },
+  "how_it_works": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Connect Your Accounts",
+        "description": "Link your social media accounts with just a few clicks"
+      },
+      {
+        "number": "2",
+        "title": "Create Content",
+        "description": "Create and schedule your posts in one place"
+      },
+      {
+        "number": "3",
+        "title": "Analyze Performance",
+        "description": "Track engagement and adjust your strategy"
+      }
+    ],
+    "view_all": "View all features"
+  },
+  "about": {
+    "hero": {
+      "title": "About Conexus",
+      "subtitle": "We're on a mission to simplify social media management for businesses and creators of all sizes."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Conexus, we believe that managing your social media presence should be simple, efficient, and effective. Our platform is designed to help you save time, increase engagement, and achieve better results across all your social channels."
+    },
+    "story": {
+      "title": "Our Story",
+      "description1": "Conexus was founded in 2023 by a team of social media professionals who were frustrated with the complexity and high costs of existing tools. We set out to create a platform that combines powerful features with an intuitive interface, making social media management accessible to everyone.",
+      "description2": "What started as a simple scheduling tool has evolved into a comprehensive platform for content planning, collaboration, and analytics. Today, Conexus helps thousands of users streamline their social media workflows and achieve better results."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Simplicity",
+          "description": "We believe that powerful software doesn't have to be complicated. We focus on creating intuitive experiences that save you time and frustration."
+        },
+        {
+          "title": "Accessibility",
+          "description": "Social media tools should be accessible to everyone, not just large companies with big budgets. We're committed to making our platform affordable and inclusive."
+        },
+        {
+          "title": "Innovation",
+          "description": "We're constantly exploring new ways to help you manage your social media more effectively. We embrace new technologies and platforms to keep you ahead of the curve."
+        },
+        {
+          "title": "Transparency",
+          "description": "We believe in being honest and transparent in everything we do, from our pricing to our product roadmap. No hidden fees, no surprises."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Conexus is built by a passionate team of social media experts, designers, and developers who are dedicated to helping you succeed online.",
+      "members": [
+        {
+          "initials": "JM",
+          "name": "Jane Mendoza",
+          "role": "Co-Founder & CEO"
+        },
+        {
+          "initials": "MJ",
+          "name": "Michael Johnson",
+          "role": "Co-Founder & CTO"
+        },
+        {
+          "initials": "EW",
+          "name": "Emily Wong",
+          "role": "Head of Product"
+        },
+        {
+          "initials": "DR",
+          "name": "David Rodriguez",
+          "role": "Lead Developer"
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: May 15, 2023",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": [
+          "At Conexus, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.",
+          "Please read this Privacy Policy carefully. By accessing or using our platform, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this policy."
+        ]
+      },
+      {
+        "title": "2. Information We Collect",
+        "subsections": [
+          {
+            "title": "2.1 Personal Information",
+            "content": "We may collect personal information that you voluntarily provide when using our platform, including but not limited to:",
+            "list": [
+              "Name",
+              "Email address",
+              "Phone number",
+              "Company information",
+              "Billing information",
+              "Social media account credentials (through OAuth authorization)"
+            ]
+          },
+          {
+            "title": "2.2 Usage Data",
+            "content": "We automatically collect certain information when you visit, use, or navigate our platform. This information may include:",
+            "list": [
+              "IP address",
+              "Browser type and version",
+              "Device type",
+              "Operating system",
+              "Pages visited and time spent",
+              "Referring website",
+              "Click-through statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. How We Use Your Information",
+        "content": [
+          "We use the information we collect for various purposes, including to:"
+        ],
+        "list": [
+          "Provide, operate, and maintain our platform",
+          "Improve, personalize, and expand our platform",
+          "Schedule and publish content to your connected social media accounts",
+          "Retrieve analytics from your social media accounts",
+          "Understand and analyze usage trends",
+          "Develop new products, services, and features",
+          "Communicate with you about our services",
+          "Process transactions and send related information",
+          "Protect against, identify, and prevent fraud and other illegal activity"
+        ]
+      },
+      {
+        "title": "4. Data Retention",
+        "content": [
+          "We will retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. When we no longer need to use your information, we will take steps to remove it from our systems or anonymize it."
+        ]
+      },
+      {
+        "title": "5. Data Security",
+        "content": [
+          "We implement appropriate technical and organizational security measures to protect your information from unauthorized access, disclosure, alteration, and destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+        ]
+      },
+      {
+        "title": "6. Third-Party Services",
+        "content": [
+          "Our platform integrates with various third-party services, including social media platforms. When you connect your social media accounts to our platform, you authorize us to interact with these platforms on your behalf. Please note that the privacy practices of these third parties are governed by their respective privacy policies, and we are not responsible for their privacy practices."
+        ]
+      },
+      {
+        "title": "7. Your Rights",
+        "content": [
+          "Depending on your location, you may have certain rights regarding your personal information, including:"
+        ],
+        "list": [
+          "The right to access personal information we hold about you",
+          "The right to request correction of inaccurate information",
+          "The right to request deletion of your information",
+          "The right to restrict or object to processing",
+          "The right to data portability"
+        ],
+        "additionalContent": [
+          "To exercise these rights, please contact us using the information provided in the \"Contact Us\" section."
+        ]
+      },
+      {
+        "title": "8. Children's Privacy",
+        "content": [
+          "Our platform is not intended for individuals under the age of 18. We do not knowingly collect or solicit personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us immediately."
+        ]
+      },
+      {
+        "title": "9. Changes to this Privacy Policy",
+        "content": [
+          "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the updated Privacy Policy on our website or through other communication channels."
+        ]
+      },
+      {
+        "title": "10. Contact Us",
+        "content": [
+          "If you have questions or concerns about this Privacy Policy or our privacy practices, please contact us at:",
+          "privacy@conexus.ai"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: May 15, 2023",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": [
+          "Welcome to Conexus (\"we,\" \"our,\" or \"us\"). These Terms of Service (\"Terms\") govern your access to and use of the Conexus platform, including our website, mobile applications, and all related services (collectively, the \"Service\").",
+          "By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the Service."
+        ]
+      },
+      {
+        "title": "2. Eligibility",
+        "content": [
+          "You must be at least 18 years old to use the Service. By using the Service, you represent and warrant that you are at least 18 years old and have the legal capacity to enter into these Terms."
+        ]
+      },
+      {
+        "title": "3. Account Registration",
+        "content": [
+          "To use certain features of the Service, you may need to register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.",
+          "You are responsible for safeguarding your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account."
+        ]
+      },
+      {
+        "title": "4. Free Trial Period",
+        "content": [
+          "Conexus is offering a free trial period until June 1, 2025. During this period, you will have access to all premium features of the Service without charge. After the free trial period ends, you may be required to subscribe to a paid plan to continue using certain features of the Service."
+        ]
+      },
+      {
+        "title": "5. User Content",
+        "content": [
+          "The Service allows you to create, upload, post, send, receive, and store content, including text, images, videos, and other materials (\"User Content\"). You retain all rights in and to your User Content.",
+          "By creating, uploading, posting, sending, receiving, or storing User Content on or through the Service, you grant us a worldwide, non-exclusive, royalty-free license to use, host, store, reproduce, modify, adapt, publish, and distribute your User Content for the purpose of operating and providing the Service to you and our other users."
+        ]
+      },
+      {
+        "title": "6. Prohibited Conduct",
+        "content": [
+          "You agree not to engage in any of the following prohibited activities:"
+        ],
+        "list": [
+          "Using the Service for any illegal purpose or in violation of any local, state, national, or international law;",
+          "Violating or infringing other people's rights, including their intellectual property rights;",
+          "Posting, uploading, or sharing content that is harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable;",
+          "Impersonating any person or entity, or falsely stating or otherwise misrepresenting your affiliation with a person or entity;",
+          "Interfering with or disrupting the Service or servers or networks connected to the Service;",
+          "Attempting to gain unauthorized access to the Service or other users' accounts;",
+          "Using any automated means to access the Service or collect any information from the Service."
+        ]
+      },
+      {
+        "title": "7. Intellectual Property",
+        "content": [
+          "The Service and its original content, features, and functionality are and will remain the exclusive property of Conexus and its licensors. The Service is protected by copyright, trademark, and other laws of both the United States and foreign countries."
+        ]
+      },
+      {
+        "title": "8. Termination",
+        "content": [
+          "We may terminate or suspend your account and access to the Service immediately, without prior notice or liability, for any reason, including if you breach these Terms.",
+          "Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service or contact us to request account deletion."
+        ]
+      },
+      {
+        "title": "9. Disclaimer of Warranties",
+        "content": [
+          "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT."
+        ]
+      },
+      {
+        "title": "10. Limitation of Liability",
+        "content": [
+          "IN NO EVENT SHALL CONEXUS, ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, SUPPLIERS, OR AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICE."
+        ]
+      },
+      {
+        "title": "11. Changes to Terms",
+        "content": [
+          "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion."
+        ]
+      },
+      {
+        "title": "12. Governing Law",
+        "content": [
+          "These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law provisions."
+        ]
+      },
+      {
+        "title": "13. Contact Us",
+        "content": [
+          "If you have questions about these Terms, please contact us at legal@conexus.ai."
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Completely Free Until June 1, 2025",
+    "subtitle": "No credit card required. Full access to all premium features.",
+    "free": {
+      "title": "Free Plan",
+      "description": "Everything you need to get started",
+      "price": "$0",
+      "period": "until June 1, 2025"
+    },
+    "future": {
+      "title": "Future Premium",
+      "description": "After June 1, 2025",
+      "price": "$19.99",
+      "period": "per month"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "subtitle": "Join thousands of content creators and businesses who trust Conexus"
+  },
+  "cta": {
+    "title": "Ready to Supercharge Your Social Media?",
+    "subtitle": "Start for free today - no credit card required",
+    "button": "Get Started"
+  },
+  "footer": {
+    "tagline": "Automate your social media presence across platforms",
+    "freeUntil": "Free until",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved"
+  }
+} 

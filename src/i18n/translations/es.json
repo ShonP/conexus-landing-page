@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Características",
+    "about": "Nosotros",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "title": "Automatiza tu Presencia en Redes Sociales",
+    "subtitle": "Programa, publica y gestiona tu contenido en Instagram, Twitter y LinkedIn sin esfuerzo.",
+    "cta": "Comenzar - Es Gratis",
+    "secondaryCta": "Saber Más"
+  },
+  "features": {
+    "title": "¿Por qué elegir Conexus?",
+    "subtitle": "Potentes funciones diseñadas para simplificar tu flujo de trabajo en redes sociales",
+    "scheduling": {
+      "title": "Programación Inteligente",
+      "description": "Optimiza tus publicaciones con recomendaciones basadas en analíticas de audiencia con IA."
+    },
+    "analytics": {
+      "title": "Analíticas Completas",
+      "description": "Sigue métricas de rendimiento en todas las plataformas desde un panel unificado."
+    },
+    "automation": {
+      "title": "Automatización de Contenido",
+      "description": "Crea variaciones de publicaciones y programa contenido en múltiples plataformas simultáneamente."
+    },
+    "management": {
+      "title": "Colaboración en Equipo",
+      "description": "Colabora perfectamente con miembros del equipo a través de espacios de trabajo compartidos."
+    }
+  },
+  "how_it_works": {
+    "title": "Cómo Funciona",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Conecta Tus Cuentas",
+        "description": "Vincula tus cuentas de redes sociales con unos pocos clics"
+      },
+      {
+        "number": "2",
+        "title": "Crea Contenido",
+        "description": "Crea y programa tus publicaciones en un solo lugar"
+      },
+      {
+        "number": "3",
+        "title": "Analiza el Rendimiento",
+        "description": "Monitorea la participación y ajusta tu estrategia"
+      }
+    ],
+    "view_all": "Ver todas las características"
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre Conexus",
+      "subtitle": "Nuestra misión es simplificar la gestión de redes sociales para empresas y creadores de todos los tamaños."
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "En Conexus, creemos que la gestión de tu presencia en redes sociales debe ser simple, eficiente y efectiva. Nuestra plataforma está diseñada para ayudarte a ahorrar tiempo, aumentar la participación y lograr mejores resultados en todos tus canales sociales."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "description1": "Conexus fue fundada en 2023 por un equipo de profesionales de redes sociales frustrados con la complejidad y los altos costos de las herramientas existentes. Nos propusimos crear una plataforma que combine características potentes con una interfaz intuitiva, haciendo que la gestión de redes sociales sea accesible para todos.",
+      "description2": "Lo que comenzó como una simple herramienta de programación ha evolucionado a una plataforma integral para planificación de contenido, colaboración y análisis. Hoy, Conexus ayuda a miles de usuarios a optimizar sus flujos de trabajo en redes sociales y lograr mejores resultados."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        {
+          "title": "Simplicidad",
+          "description": "Creemos que un software potente no tiene que ser complicado. Nos enfocamos en crear experiencias intuitivas que te ahorren tiempo y frustración."
+        },
+        {
+          "title": "Accesibilidad",
+          "description": "Las herramientas de redes sociales deben ser accesibles para todos, no solo para grandes empresas con grandes presupuestos. Estamos comprometidos a hacer que nuestra plataforma sea asequible e inclusiva."
+        },
+        {
+          "title": "Innovación",
+          "description": "Constantemente exploramos nuevas formas de ayudarte a gestionar tus redes sociales de manera más efectiva. Adoptamos nuevas tecnologías y plataformas para mantenerte a la vanguardia."
+        },
+        {
+          "title": "Transparencia",
+          "description": "Creemos en ser honestos y transparentes en todo lo que hacemos, desde nuestros precios hasta nuestra hoja de ruta de productos. Sin tarifas ocultas, sin sorpresas."
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Conexus está construido por un equipo apasionado de expertos en redes sociales, diseñadores y desarrolladores dedicados a ayudarte a tener éxito en línea.",
+      "members": [
+        {
+          "initials": "JM",
+          "name": "Jane Mendoza",
+          "role": "Cofundadora y CEO"
+        },
+        {
+          "initials": "MJ",
+          "name": "Michael Johnson",
+          "role": "Cofundador y CTO"
+        },
+        {
+          "initials": "EW",
+          "name": "Emily Wong",
+          "role": "Jefa de Producto"
+        },
+        {
+          "initials": "DR",
+          "name": "David Rodriguez",
+          "role": "Desarrollador Principal"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Completamente Gratis Hasta el 1 de Junio, 2025",
+    "subtitle": "No se requiere tarjeta de crédito. Acceso completo a todas las funciones premium.",
+    "free": {
+      "title": "Plan Gratuito",
+      "description": "Todo lo que necesitas para empezar",
+      "price": "$0",
+      "period": "hasta el 1 de junio, 2025"
+    },
+    "future": {
+      "title": "Premium Futuro",
+      "description": "Después del 1 de junio de 2025",
+      "price": "$19.99",
+      "period": "por mes"
+    }
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Usuarios",
+    "subtitle": "Únete a miles de creadores de contenido y empresas que confían en Conexus"
+  },
+  "cta": {
+    "title": "¿Listo para Potenciar tus Redes Sociales?",
+    "subtitle": "Comienza gratis hoy - no se requiere tarjeta de crédito",
+    "button": "Comenzar Ahora"
+  },
+  "footer": {
+    "tagline": "Automatiza tu presencia en redes sociales en todas las plataformas",
+    "freeUntil": "Gratis hasta",
+    "links": "Enlaces Rápidos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "rights": "Todos los derechos reservados"
+  }
+} 
